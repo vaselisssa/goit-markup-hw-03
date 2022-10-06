@@ -1,0 +1,218 @@
+:root {
+   --primary-text-color: #757575;
+   --title-text-color: #212121;
+   --accent-color: #2196f3;
+   --light-auxiliary-color: #ffffff;
+   --dark-auxiliary-color: #000000;
+   --light-background-color: #f5f4fa;
+   --dark-background-color: #2f303a;
+}
+
+body {
+   color: var(--primary-text-color);
+   background-color: var(--light-auxiliary-color);
+   font-family: "Roboto", sans-serif;
+   font-size: 14px;
+   letter-spacing: 0.03em;
+}
+
+.link {
+   text-decoration: none;
+}
+
+.list {
+   list-style-type: none;
+}
+
+.title {
+   color: var(--title-text-color);
+}
+/* ---------visually-hidden-titles------- */
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
+/* ----------------logo ----------------*/
+.logo {
+   color: var(--dark-auxiliary-color);
+   font-family: "Raleway";
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+}
+
+.logo span {
+   color: var(--accent-color);
+}
+
+/* --------------header------------ */
+
+.nav-link,
+.header-contacts-link {
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   font-weight: 500;
+}
+
+.nav-link {
+   color: var(--title-text-color);
+}
+
+.header-contacts-link {
+   color: var(--primary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active,
+.nav-link.current {
+   color: var(--accent-color);
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+   color: var(--accent-color);
+}
+
+/* ------------------Hero----------------*/
+.hero {
+   background-color: var(--dark-background-color);
+}
+
+.hero-title {
+   color: var(--light-auxiliary-color);
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 60px;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+
+.hero-button {
+   background: var(--accent-color);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   border-width: 0;
+   color: var(--light-auxiliary-color);
+   font-family: inherit;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.87;
+   text-align: center;
+   letter-spacing: 0.06em;
+}
+
+/* ---------------features--------------- */
+.feature-title {
+   font-size: 14px;
+   line-height: 1.14;
+   text-transform: uppercase;
+}
+
+.feature-list .text {
+   line-height: 1.71;
+}
+
+/* -------------occupation-------------- */
+.section-title {
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
+}
+
+/* -----------------team----------------- */
+.team {
+   background-color: var(--light-background-color);
+}
+
+.team-card {
+   background-color: var(--light-auxiliary-color);
+}
+
+.team-card-title {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+}
+
+.team-card-text {
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+}
+
+/* -----------portfolio----------- */
+.example-item {
+   border: 1px solid #eeeeee;
+}
+
+.example-list-title {
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+
+.example-list p {
+   color: var(--primary-text-color);
+   font-size: 16px;
+   line-height: 1.87;
+}
+
+/* ---------------filters---------------- */
+.filter-list .button {
+   background-color: var(--light-background-color);
+   color: var(--title-text-color);
+   font-family: inherit;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+}
+
+.filter-list .button:hover,
+.filter-list .button:focus,
+.filter-list .button:active {
+   background-color: var(--accent-color);
+   color: var(--light-auxiliary-color);
+   cursor: pointer;
+}
+
+/* ----------------footer---------------- */
+.footer {
+   background-color: var(--dark-background-color);
+}
+
+.footer .logo {
+   color: var(--light-auxiliary-color);
+}
+
+.footer-contacts-list .link {
+   font-style: normal;
+   line-height: 1.71;
+}
+
+.footer-address {
+   color: var(--light-auxiliary-color);
+}
+
+.footer-mail,
+.footer-tel {
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-list .link:hover,
+.footer-contacts-list .link:focus {
+   color: var(--accent-color);
+}
