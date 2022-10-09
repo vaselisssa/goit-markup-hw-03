@@ -287,7 +287,7 @@ img {
 /* portfolio*/
 /* filters */
 .filter-list {
-   margin-bottom: 34px;
+   margin-bottom: 50px;
    display: flex;
    justify-content: center;
    gap: 8px;
@@ -324,11 +324,11 @@ img {
 
 .example-item {
    width: calc((100% - 60px) / 3);
-   border-bottom: 1px solid #eeeeee;
 }
 
 .example-item-text {
    padding: 24px 20px;
+   border-bottom: 1px solid #eeeeee;
 }
 
 .example-list-title {
@@ -381,7 +381,7 @@ img {
    display: block;
 }
 
-.footer-mail {
+.footer-contacts-item {
    margin-top: 9px;
    margin-bottom: 9px;
 }
