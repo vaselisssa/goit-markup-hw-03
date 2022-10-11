@@ -197,6 +197,9 @@ img {
    text-align: center;
    letter-spacing: 0.06em;
 }
+.hero-button:active {
+   background: #188ce8;
+}
 
 /* ---------------features--------------- */
 .features {
